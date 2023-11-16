@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'light_recognition = light_recognition.light_recognition:main',
+            'light_recognition = light_recognition.test_tf:main',
         ],
     },
 )
